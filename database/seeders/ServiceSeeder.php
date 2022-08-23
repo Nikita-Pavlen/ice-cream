@@ -2,16 +2,19 @@
 
 namespace Database\Seeders;
 
+use App\Models\File;
+use Faker\Factory;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use App\Models\File;
 
-class HeaderSlideSeeder extends Seeder
+class ServiceSeeder extends Seeder
 {
-    const IMAGE_DIR = 'header_carousel';
+    const IMAGE_DIR = 'services';
     private $arNames = [
-        'Made From Our Own Organic Milk',
-        'Traditional Ice Cream Since 1950'
+        'Quality Maintain',
+        'Individual Approach',
+        'Celebration Ice Cream',
+        'Delivery To Any Point'
     ];
 
     /**
@@ -25,13 +28,15 @@ class HeaderSlideSeeder extends Seeder
             ->where('path', 'like', '%' . self::IMAGE_DIR . '%')
             ->get(['id']);
         $fields = [];
+        $faker = Factory::create();
         foreach ($files as $key => $file) {
             $fields[] = [
                 'name' => $this->arNames[$key],
-                'image_id' => $file->id
+                'image_id' => $file->id,
+                'preview_text' => $faker->realTextBetween(150, 200)
             ];
         }
 
-        DB::table('header_slides')->insert($fields);
+        DB::table('services')->insert($fields);
     }
 }
