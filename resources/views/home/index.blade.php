@@ -17,7 +17,7 @@
             </div>
             <div class="col-lg-4" style="min-height: 400px;">
                 <div class="position-relative h-100 rounded overflow-hidden">
-                    <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100" src="/public/upload/img/about.jpg" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-4 py-5">
@@ -38,7 +38,7 @@
     <div class="row bg-primary m-0">
         <div class="col-md-6 px-0" style="min-height: 500px;">
             <div class="position-relative h-100">
-                <img class="position-absolute w-100 h-100" src="img/promotion.jpg" style="object-fit: cover;">
+                <img class="position-absolute w-100 h-100" src="/public/upload/img/promotion.jpg" style="object-fit: cover;">
                 <button type="button" class="btn-play" data-toggle="modal"
                         data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
                     <span></span>
@@ -80,66 +80,7 @@
 </div>
 <!-- Video Modal End -->
 
-
-<!-- Services Start -->
-<div class="container-fluid py-5">
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-6">
-                <h1 class="section-title position-relative mb-5">Best Services We Provide For Our Clients</h1>
-            </div>
-            <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="owl-carousel service-carousel">
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-1.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Quality Maintain</h5>
-                            <p>Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo</p>
-                            <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-2.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Individual Approach</h5>
-                            <p>Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo</p>
-                            <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-3.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Celebration Ice Cream</h5>
-                            <p>Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo</p>
-                            <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="service-item">
-                        <div class="service-img mx-auto">
-                            <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-4.jpg" style="object-fit: cover;">
-                        </div>
-                        <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                            <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Delivery To Any Point</h5>
-                            <p>Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo</p>
-                            <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Services End -->
-
+<x-services />
 
 <!-- Portfolio Start -->
 <div class="container-fluid my-5 py-5 px-0">
@@ -151,48 +92,48 @@
     <div class="row m-0 portfolio-container">
         <div class="col-lg-4 col-md-6 p-0 portfolio-item">
             <div class="position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
-                <a class="portfolio-btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                <img class="/public/upload/img-fluid w-100" src="/public/upload/img/portfolio-1.jpg" alt="">
+                <a class="portfolio-btn" href="/public/upload/img/portfolio-1.jpg" data-lightbox="portfolio">
                     <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
                 </a>
             </div>
         </div>
         <div class="col-lg-4 col-md-6 p-0 portfolio-item">
             <div class="position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
-                <a class="portfolio-btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                <img class="/public/upload/img-fluid w-100" src="/public/upload/img/portfolio-2.jpg" alt="">
+                <a class="portfolio-btn" href="/public/upload/img/portfolio-2.jpg" data-lightbox="portfolio">
                     <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
                 </a>
             </div>
         </div>
         <div class="col-lg-4 col-md-6 p-0 portfolio-item">
             <div class="position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                <a class="portfolio-btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                <img class="/public/upload/img-fluid w-100" src="/public/upload/img/portfolio-3.jpg" alt="">
+                <a class="portfolio-btn" href="/public/upload/img/portfolio-3.jpg" data-lightbox="portfolio">
                     <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
                 </a>
             </div>
         </div>
         <div class="col-lg-4 col-md-6 p-0 portfolio-item">
             <div class="position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
-                <a class="portfolio-btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                <img class="/public/upload/img-fluid w-100" src="/public/upload/img/portfolio-4.jpg" alt="">
+                <a class="portfolio-btn" href="/public/upload/img/portfolio-4.jpg" data-lightbox="portfolio">
                     <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
                 </a>
             </div>
         </div>
         <div class="col-lg-4 col-md-6 p-0 portfolio-item">
             <div class="position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
-                <a class="portfolio-btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                <img class="/public/upload/img-fluid w-100" src="/public/upload/img/portfolio-5.jpg" alt="">
+                <a class="portfolio-btn" href="/public/upload/img/portfolio-5.jpg" data-lightbox="portfolio">
                     <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
                 </a>
             </div>
         </div>
         <div class="col-lg-4 col-md-6 p-0 portfolio-item">
             <div class="position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
-                <a class="portfolio-btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                <img class="/public/upload/img-fluid w-100" src="/public/upload/img/portfolio-6.jpg" alt="">
+                <a class="portfolio-btn" href="/public/upload/img/portfolio-6.jpg" data-lightbox="portfolio">
                     <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
                 </a>
             </div>
@@ -219,7 +160,7 @@
                             <h4 class="font-weight-bold text-white mb-0">$99</h4>
                         </div>
                         <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                            <img class="rounded-circle w-100 h-100" src="img/product-1.jpg" style="object-fit: cover;">
+                            <img class="rounded-circle w-100 h-100" src="/public/upload/img/product-1.jpg" style="object-fit: cover;">
                         </div>
                         <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
                         <a href="" class="btn btn-sm btn-secondary">Order Now</a>
@@ -229,7 +170,7 @@
                             <h4 class="font-weight-bold text-white mb-0">$99</h4>
                         </div>
                         <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                            <img class="rounded-circle w-100 h-100" src="img/product-2.jpg" style="object-fit: cover;">
+                            <img class="rounded-circle w-100 h-100" src="/public/upload/img/product-2.jpg" style="object-fit: cover;">
                         </div>
                         <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
                         <a href="" class="btn btn-sm btn-secondary">Order Now</a>
@@ -239,7 +180,7 @@
                             <h4 class="font-weight-bold text-white mb-0">$99</h4>
                         </div>
                         <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                            <img class="rounded-circle w-100 h-100" src="img/product-3.jpg" style="object-fit: cover;">
+                            <img class="rounded-circle w-100 h-100" src="/public/upload/img/product-3.jpg" style="object-fit: cover;">
                         </div>
                         <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
                         <a href="" class="btn btn-sm btn-secondary">Order Now</a>
@@ -249,7 +190,7 @@
                             <h4 class="font-weight-bold text-white mb-0">$99</h4>
                         </div>
                         <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                            <img class="rounded-circle w-100 h-100" src="img/product-4.jpg" style="object-fit: cover;">
+                            <img class="rounded-circle w-100 h-100" src="/public/upload/img/product-4.jpg" style="object-fit: cover;">
                         </div>
                         <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
                         <a href="" class="btn btn-sm btn-secondary">Order Now</a>
@@ -259,7 +200,7 @@
                             <h4 class="font-weight-bold text-white mb-0">$99</h4>
                         </div>
                         <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                            <img class="rounded-circle w-100 h-100" src="img/product-5.jpg" style="object-fit: cover;">
+                            <img class="rounded-circle w-100 h-100" src="/public/upload/img/product-5.jpg" style="object-fit: cover;">
                         </div>
                         <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
                         <a href="" class="btn btn-sm btn-secondary">Order Now</a>
@@ -286,7 +227,7 @@
                 <div class="owl-carousel team-carousel">
                     <div class="team-item">
                         <div class="team-img mx-auto">
-                            <img class="rounded-circle w-100 h-100" src="img/team-1.jpg" style="object-fit: cover;">
+                            <img class="rounded-circle w-100 h-100" src="/public/upload/img/team-1.jpg" style="object-fit: cover;">
                         </div>
                         <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
                             <h3 class="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
@@ -300,7 +241,7 @@
                     </div>
                     <div class="team-item">
                         <div class="team-img mx-auto">
-                            <img class="rounded-circle w-100 h-100" src="img/team-2.jpg" style="object-fit: cover;">
+                            <img class="rounded-circle w-100 h-100" src="/public/upload/img/team-2.jpg" style="object-fit: cover;">
                         </div>
                         <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
                             <h3 class="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
@@ -314,7 +255,7 @@
                     </div>
                     <div class="team-item">
                         <div class="team-img mx-auto">
-                            <img class="rounded-circle w-100 h-100" src="img/team-3.jpg" style="object-fit: cover;">
+                            <img class="rounded-circle w-100 h-100" src="/public/upload/img/team-3.jpg" style="object-fit: cover;">
                         </div>
                         <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
                             <h3 class="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
@@ -328,7 +269,7 @@
                     </div>
                     <div class="team-item">
                         <div class="team-img mx-auto">
-                            <img class="rounded-circle w-100 h-100" src="img/team-4.jpg" style="object-fit: cover;">
+                            <img class="rounded-circle w-100 h-100" src="/public/upload/img/team-4.jpg" style="object-fit: cover;">
                         </div>
                         <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
                             <h3 class="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
@@ -362,21 +303,21 @@
                     <div class="text-center">
                         <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
                         <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
-                        <img class="img-fluid mx-auto mb-3" src="img/testimonial-1.jpg" alt="">
+                        <img class="/public/upload/img-fluid mx-auto mb-3" src="/public/upload/users/testimonial-1.jpg" alt="">
                         <h5 class="font-weight-bold m-0">Client Name</h5>
                         <span>Profession</span>
                     </div>
                     <div class="text-center">
                         <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
                         <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
-                        <img class="img-fluid mx-auto mb-3" src="img/testimonial-2.jpg" alt="">
+                        <img class="/public/upload/img-fluid mx-auto mb-3" src="/public/upload/users/testimonial-2.jpg" alt="">
                         <h5 class="font-weight-bold m-0">Client Name</h5>
                         <span>Profession</span>
                     </div>
                     <div class="text-center">
                         <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
                         <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
-                        <img class="img-fluid mx-auto mb-3" src="img/testimonial-3.jpg" alt="">
+                        <img class="/public/upload/img-fluid mx-auto mb-3" src="/public/upload/users/testimonial-3.jpg" alt="">
                         <h5 class="font-weight-bold m-0">Client Name</h5>
                         <span>Profession</span>
                     </div>
