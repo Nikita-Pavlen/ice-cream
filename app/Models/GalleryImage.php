@@ -11,6 +11,11 @@ class GalleryImage extends Model
 
     public function category()
     {
-        return $this->hasOne(Category::class, 'id', 'category_id');
+        return $this->belongsTo(Category::class, 'id', 'category_id');
+    }
+
+    public function file()
+    {
+        return $this->hasOne(File::class, 'id', 'file_id');
     }
 }
